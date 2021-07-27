@@ -16,10 +16,10 @@
         <property name="current_session_context_class">thread</property>
 
         <!-- Domain Model classes to be mapped -->
-        <mapping class="by.nyurush.odata.entity.User" />
-        <mapping class="by.nyurush.odata.entity.Pet" />
-        <mapping class="by.nyurush.odata.entity.Dog" />
-        <mapping class="by.nyurush.odata.entity.Cat" />
+        <mapping class="by.nyurush.odata.entity.jpa.User" />
+        <mapping class="by.nyurush.odata.entity.jpa.Pet" />
+        <mapping class="by.nyurush.odata.entity.jpa.Dog" />
+        <mapping class="by.nyurush.odata.entity.jpa.Cat" />
 
     </session-factory>
 </hibernate-configuration>

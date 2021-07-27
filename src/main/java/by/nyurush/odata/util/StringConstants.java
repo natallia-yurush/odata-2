@@ -2,7 +2,7 @@ package by.nyurush.odata.util;
 
 public class StringConstants {
 
-    public static final String ENTITY_PACKAGE = "by.nyurush.odata.entity";
+    public static final String MODEL_PACKAGE = "by.nyurush.odata.entity";
 
     // Service Namespace
     public static final String NAMESPACE = "pets";

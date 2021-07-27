@@ -1,6 +1,6 @@
 package by.nyurush.odata.repository;
 
-import by.nyurush.odata.entity.User;
+import by.nyurush.odata.entity.jpa.User;
 
 import java.util.List;
 

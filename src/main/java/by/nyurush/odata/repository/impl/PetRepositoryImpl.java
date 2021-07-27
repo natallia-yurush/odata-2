@@ -1,9 +1,9 @@
 package by.nyurush.odata.repository.impl;
 
-import by.nyurush.odata.entity.Cat;
-import by.nyurush.odata.entity.Dog;
-import by.nyurush.odata.entity.Pet;
-import by.nyurush.odata.entity.User;
+import by.nyurush.odata.entity.jpa.Cat;
+import by.nyurush.odata.entity.jpa.Dog;
+import by.nyurush.odata.entity.jpa.Pet;
+import by.nyurush.odata.entity.jpa.User;
 import by.nyurush.odata.exception.DaoException;
 import by.nyurush.odata.repository.PetRepository;
 import org.hibernate.Session;

@@ -12,16 +12,15 @@ import org.apache.olingo.odata2.api.edm.provider.EdmProvider;
 import org.apache.olingo.odata2.api.exception.ODataException;
 import org.apache.olingo.odata2.api.processor.ODataContext;
 
-import static by.nyurush.odata.util.StringConstants.ENTITY_PACKAGE;
+import static by.nyurush.odata.util.StringConstants.MODEL_PACKAGE;
 
 public class AppODataServiceFactory extends ODataServiceFactory {
 
     @Override
     public ODataService createService(ODataContext ctx) throws ODataException {
-        EdmProvider edmProvider = new AnnotationEdmProvider(ENTITY_PACKAGE);
+        EdmProvider edmProvider = new AnnotationEdmProvider(MODEL_PACKAGE);
         ValueAccess valueAccess = new AnnotationValueAccess();
         DataSource dataSource = new AppDataSource();
         return createODataSingleProcessorService(edmProvider, new ListsProcessor(dataSource, valueAccess));
     }
-
 }

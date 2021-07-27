@@ -1,6 +1,6 @@
 package by.nyurush.odata.repository.impl;
 
-import by.nyurush.odata.entity.User;
+import by.nyurush.odata.entity.jpa.User;
 import by.nyurush.odata.exception.DaoException;
 import by.nyurush.odata.repository.UserRepository;
 import org.hibernate.Session;
